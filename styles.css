@@ -1,0 +1,109 @@
+/* Dark Theme Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f4f4f9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#project-list li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: #f4f4f9;
+}
+
+#project-list li:hover {
+    background-color: #444;
+}
+
+#project-list .project-description {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #007acc;
+    color: #f4f4f9;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+/* Task List Styling */
+.project-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.project-task input[type="checkbox"] {
+    accent-color: #007acc;
+    cursor: not-allowed;
+}
+
+.project-task label {
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #f4f4f9;
+}
+
+/* Reserve button styling */
+.reserve-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: background-color 0.3s;
+}
+
+.reserve-btn:hover {
+    background-color: #218838;
+}
+
+.reserve-btn[disabled] {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
