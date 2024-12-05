@@ -107,3 +107,18 @@ button:hover {
     cursor: not-allowed;
 }
 
+/* Styling for the logo */
+.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Styling for the description */
+.description {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #ccc;
+}
